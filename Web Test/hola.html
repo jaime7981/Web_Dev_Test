@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Pag1</title>
+  <link rel="stylesheet" type="text/css" href="hola.css">
+  <script type="text/javascript" src="hola.js"></script>
+</head>
+
+<body>
+<h1>UN TITULO
+</h1>
+
+<div>
+  <img src="logo26.png" width=100px height=100px> </img>
+</div>
+
+<p>aca va la info</p>
+
+<div>Esto es un bloque
+  <ul>una lista nooo punteada
+    <li>una lista punteada</li>
+    <li>una lista punteada parte 2</li>
+    <li>una lista punteada parte 3</li>
+    <li id="varTest"></li>
+  </ul>
+</div>
+
+<div id="bloque2">Este es el bloque 2
+  <ul>una lista nooo punteada
+    <li>una lista punteada</li>
+    <li>una lista punteada parte 2</li>
+    <li id="lista">una lista punteada parte 3</li>
+  </ul>
+</div>
+
+<p id="hello"></p>
+
+<script>
+  document.getElementById("lista").innerHTML="aca esta escrito por js";
+</script>
+<button type="button" onclick="background()">cambia el color de fondo</button>
+
+</body>
+</html>
