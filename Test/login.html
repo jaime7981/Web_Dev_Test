@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .loginblock{
+                float: left;
+                padding: 5px;
+            }
+            .navref{
+                padding: 5px;
+            }
+        </style>
+        <title>
+            Login
+        </title>
+    </head>
+
+    <body>
+        <header title="Headbar">
+            <a href="test.html" id="header">
+                <img src="img/logo.jpg" alt="Logo" style="width: 150px; height: 100px"/>
+            </a>
+            <h1>
+                Login
+            </h1>
+            <h2>
+                Acá te puedes loggear con tu usuario
+            </h2>
+        </header>
+
+        <nav style="padding: 5px; background-color: black;">
+            <a href="inicio.html" class="navref">Inicio</a>
+            <a href="login.html" class="navref">Login</a>
+        </nav>
+
+        <div>
+            <form method="post" action="testscript.cgi" enctype="multipart/form-data">
+                <div class="loginblock">
+                    <label for="login">User:</label><br>
+                    <label for="password"> Password:</label>
+                </div>
+
+                <div class="loginblock">
+                    <input type="text" id="login" name="userlogin"><br>
+                    <input type="text" id="password" name="userpassword"><br>
+                    <input type="submit" value="Login">
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>
